@@ -1,0 +1,41 @@
+GALAXY M52 Repair Services
+==================================================
+
+SCREEN REPAIRS:
+--------------------
+• Vitre + écran Original Samsung
+  Normal: 149.00€ TTC
+  Discount: 124.00€ TTC
+
+• Vitre arrière
+  Normal: 49.00€ TTC
+  Discount: 24.00€ TTC
+
+
+COMPONENT REPAIRS:
+--------------------
+• Batterie
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Connecteur de charge
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Tiroir sim
+  Price: 10.00€ TTC
+
+
+SERVICES:
+--------------------
+• Désoxydation
+  Price: 49.00€ TTC
+
+• Transfert de données
+  Price: 20.00€ TTC
+
+• Récupération de données
+  Price: 30.00€ TTC
+
+
+Total unique services: 8

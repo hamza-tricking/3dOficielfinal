@@ -1,0 +1,36 @@
+PIXEL 8A Repair Services
+==================================================
+
+SCREEN REPAIRS:
+--------------------
+• Vitre + Ecran Origine
+  Normal: 209.00€ TTC
+  Discount: 184.00€ TTC
+
+• Vitre camera arrière
+  Normal: 49.00€ TTC
+  Discount: 24.00€ TTC
+
+
+COMPONENT REPAIRS:
+--------------------
+• Tiroir sim
+  Price: 10.00€ TTC
+
+
+SERVICES:
+--------------------
+• Désoxydation
+  Price: 49.00€ TTC
+
+• Transfert de données
+  Price: 20.00€ TTC
+
+• Récupération de données
+  Price: 30.00€ TTC
+
+• Recherche de panne
+  Price: GRATUITE
+
+
+Total unique services: 7

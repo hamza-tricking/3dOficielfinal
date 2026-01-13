@@ -1,0 +1,42 @@
+GALAXY M51 Repair Services
+==================================================
+
+SCREEN REPAIRS:
+--------------------
+• Vitre + écran Original Samsung
+  Normal: 139.00€ TTC
+  Discount: 114.00€ TTC
+
+• Vitre arrière
+  Normal: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+
+COMPONENT REPAIRS:
+--------------------
+• Batterie
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Connecteur de charge
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Micro
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+
+SERVICES:
+--------------------
+• Désoxydation
+  Price: 49.00€ TTC
+
+• Transfert de données
+  Price: 20.00€ TTC
+
+• Récupération de données
+  Price: 30.00€ TTC
+
+
+Total unique services: 8

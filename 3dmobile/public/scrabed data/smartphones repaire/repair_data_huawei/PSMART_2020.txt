@@ -1,0 +1,83 @@
+PSMART 2020 Repair Services
+==================================================
+
+SCREEN REPAIRS:
+--------------------
+• Ecran Original Huawei
+  Normal: 89.00€ TTC
+  Discount: 64.00€ TTC
+
+• Vitre arrière
+  Normal: 49.00€ TTC
+  Discount: 24.00€ TTC
+
+• Vitre camera arrière
+  Normal: 39.00€ TTC
+  Discount: 14.00€ TTC
+
+
+COMPONENT REPAIRS:
+--------------------
+• Batterie
+  Price: 39.00€ TTC
+  Discount: 14.00€ TTC
+
+• Connecteur de charge
+  Price: 39.00€ TTC
+  Discount: 14.00€ TTC
+
+• Bouton home
+  Price: 29.00€ TTC
+
+• Bouton power
+  Price: 29.00€ TTC
+
+• Bouton volume
+  Price: 29.00€ TTC
+
+• Caméra avant
+  Price: 39.00€ TTC
+  Discount: 14.00€ TTC
+
+• Caméra arrière
+  Price: 39.00€ TTC
+  Discount: 14.00€ TTC
+
+• Vibreur
+  Price: 29.00€ TTC
+
+• Micro
+  Price: 39.00€ TTC
+  Discount: 14.00€ TTC
+
+• Ecouteur interne
+  Price: 39.00€ TTC
+  Discount: 14.00€ TTC
+
+• Haut parleur
+  Price: 29.00€ TTC
+  Discount: 4.00€ TTC
+
+• Prise casque
+  Price: 39.00€ TTC
+
+• Tiroir sim
+  Price: 10.00€ TTC
+
+
+SERVICES:
+--------------------
+• Désoxydation
+  Price: 49.00€ TTC
+
+• Transfert de données
+  Price: 20.00€ TTC
+
+• Récupération de données
+  Price: 30.00€ TTC
+
+• Recherche de panne
+  Price: GRATUITE
+
+
+Total unique services: 20

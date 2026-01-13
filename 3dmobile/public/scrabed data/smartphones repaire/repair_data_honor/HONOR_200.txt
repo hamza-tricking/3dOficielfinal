@@ -1,0 +1,68 @@
+HONOR 200 Repair Services
+==================================================
+
+SCREEN REPAIRS:
+--------------------
+• Vitre + Ecran LCD compatible
+  Normal: 189.00€ TTC
+  Discount: 164.00€ TTC
+
+• Vitre + Ecran Origine
+  Normal: 259.00€ TTC
+  Discount: 234.00€ TTC
+
+• Vitre arrière
+  Normal: 109.00€ TTC
+  Discount: 84.00€ TTC
+
+• Vitre camera arrière
+  Normal: 49.00€ TTC
+  Discount: 24.00€ TTC
+
+
+COMPONENT REPAIRS:
+--------------------
+• Connecteur de charge
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Caméra avant
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Caméra arrière
+  Price: 79.00€ TTC
+  Discount: 54.00€ TTC
+
+• Micro
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Ecouteur interne
+  Price: 49.00€ TTC
+  Discount: 24.00€ TTC
+
+• Haut parleur
+  Price: 49.00€ TTC
+  Discount: 24.00€ TTC
+
+• Tiroir sim
+  Price: 10.00€ TTC
+
+
+SERVICES:
+--------------------
+• Désoxydation
+  Price: 49.00€ TTC
+
+• Transfert de données
+  Price: 20.00€ TTC
+
+• Récupération de données
+  Price: 30.00€ TTC
+
+• Recherche de panne
+  Price: GRATUITE
+
+
+Total unique services: 15

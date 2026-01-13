@@ -1,0 +1,78 @@
+4 Repair Services
+==================================================
+
+SCREEN REPAIRS:
+--------------------
+• Vitre + Ecran LCD compatible
+  Normal: 129.00€ TTC
+  Discount: 104.00€ TTC
+
+• Vitre + Ecran OLED similaire à l'original
+  Normal: 169.00€ TTC
+  Discount: 144.00€ TTC
+
+• Vitre arrière
+  Normal: N.C.
+
+• Vitre camera arrière
+  Normal: N.C.
+
+
+COMPONENT REPAIRS:
+--------------------
+• Batterie
+  Price: N.C.
+
+• Connecteur de charge
+  Price: N.C.
+
+• Bouton power
+  Price: N.C.
+
+• Bouton volume
+  Price: N.C.
+
+• Caméra avant
+  Price: N.C.
+
+• Caméra arrière
+  Price: N.C.
+
+• Vibreur
+  Price: N.C.
+
+• Micro
+  Price: N.C.
+
+• Ecouteur interne
+  Price: N.C.
+
+• Haut parleur
+  Price: N.C.
+
+• Nappe NFC
+  Price: N.C.
+
+• Lecteur sim
+  Price: N.C.
+
+• Tiroir sim
+  Price: 10.00€ TTC
+
+
+SERVICES:
+--------------------
+• Désoxydation
+  Price: 49.00€ TTC
+
+• Transfert de données
+  Price: 20.00€ TTC
+
+• Récupération de données
+  Price: 30.00€ TTC
+
+• Recherche de panne
+  Price: GRATUITE
+
+
+Total unique services: 21

@@ -1,0 +1,52 @@
+FIND X3 NEO Repair Services
+==================================================
+
+SCREEN REPAIRS:
+--------------------
+• Ecran compatible
+  Normal: 169.00€ TTC
+  Discount: 144.00€ TTC
+
+• Ecran Original Oppo
+  Normal: 299.00€ TTC
+  Discount: 274.00€ TTC
+
+
+COMPONENT REPAIRS:
+--------------------
+• Batterie
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Connecteur de charge
+  Price: 59.00€ TTC
+  Discount: 34.00€ TTC
+
+• Caméra avant
+  Price: 49.00€ TTC
+  Discount: 24.00€ TTC
+
+• Caméra arrière
+  Price: 79.00€ TTC
+  Discount: 54.00€ TTC
+
+• Tiroir sim
+  Price: 10.00€ TTC
+
+
+SERVICES:
+--------------------
+• Désoxydation
+  Price: 49.00€ TTC
+
+• Transfert de données
+  Price: 20.00€ TTC
+
+• Récupération de données
+  Price: 30.00€ TTC
+
+• Recherche de panne
+  Price: GRATUITE
+
+
+Total unique services: 11
