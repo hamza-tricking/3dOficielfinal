@@ -70,31 +70,36 @@ export default function iPhone16PROPage() {
 
   const handleServiceNameClick = (serviceId: string) => {
     // Only show screen protection modal for specific screen services
-    if (serviceId.includes("vitre-cran-lcd-compatible") || serviceId.includes("vitre-cran-oled-similaire-l-original")) {
+    if (serviceId === "screen-lcd" || serviceId === "screen-oled") {
       setShowScreenProtectionModal(serviceId);
-    } else if (serviceId.includes("récupération-de-données")) {
+    } else if (serviceId === "data-recovery") {
       setShowDataRecoveryModal(serviceId);
     }
   };
 
   const handleProtectionSelect = (serviceId: string, protection: string) => {
     setSelectedProtection(prev => ({ ...prev, [serviceId]: protection }));
+    
+    // Only add service if not already selected
     setSelectedServices(prev => 
       prev.includes(serviceId) 
-        ? prev.filter(id => id !== serviceId)
+        ? prev // Service already selected, just update protection
         : [...prev, serviceId]
     );
     setShowScreenProtectionModal(null);
     
+    // Show notification
     const protectionText = protection === 'hydrogel' ? 'Film en Hydrogel (+20€)' : 
                          protection === 'verre-trempe' ? 'Film en verre trempé (+10€)' : 
                          'Sans protection';
     
+    // Create notification element
     const notification = document.createElement('div');
     notification.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 transition-all duration-300 transform translate-x-0';
     notification.innerHTML = `✅ ${protectionText} ajouté à votre sélection`;
     document.body.appendChild(notification);
     
+    // Remove notification after 3 seconds
     setTimeout(() => {
       notification.classList.add('translate-x-full', 'opacity-0');
       setTimeout(() => {
@@ -105,9 +110,11 @@ export default function iPhone16PROPage() {
 
   const handleDataRecoverySelect = (serviceId: string, recoveryType: string) => {
     setSelectedProtection(prev => ({ ...prev, [serviceId]: recoveryType }));
+    
+    // Only add service if not already selected
     setSelectedServices(prev => 
       prev.includes(serviceId) 
-        ? prev.filter(id => id !== serviceId)
+        ? prev // Service already selected, just update recovery type
         : [...prev, serviceId]
     );
     setShowDataRecoveryModal(null);

@@ -32,6 +32,7 @@ export default function ScreenRepairService({
   onProtectionSelect
 }: ScreenRepairServiceProps) {
   const [showModal, setShowModal] = useState(false);
+  const [selectedProtectionOption, setSelectedProtectionOption] = useState<string>('');
 
   const handleProtectionSelect = (protection: string) => {
     onProtectionSelect(id, protection);
@@ -61,7 +62,7 @@ export default function ScreenRepairService({
         <input
           type="checkbox"
           checked={isSelected}
-          onChange={() => onToggle(id)}
+          onChange={() => setShowModal(true)}
           className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
         />
         <div 
@@ -145,6 +146,8 @@ export default function ScreenRepairService({
                       type="radio"
                       name="protection"
                       value={option.value}
+                      checked={selectedProtectionOption === option.value}
+                      onChange={() => setSelectedProtectionOption(option.value)}
                       className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 focus:ring-2"
                     />
                     <div>
@@ -162,9 +165,8 @@ export default function ScreenRepairService({
             <div className="mt-4 flex gap-3">
               <button
                 onClick={() => {
-                  const selected = document.querySelector('input[name="protection"]:checked') as HTMLInputElement;
-                  if (selected) {
-                    handleProtectionSelect(selected.value);
+                  if (selectedProtectionOption) {
+                    handleProtectionSelect(selectedProtectionOption);
                   }
                 }}
                 className="flex-1 bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-sm"

@@ -39,6 +39,7 @@ export default function DataRecoveryService({
   onRecoverySelect
 }: DataRecoveryServiceProps) {
   const [showModal, setShowModal] = useState(false);
+  const [selectedRecoveryOption, setSelectedRecoveryOption] = useState<string>('');
 
   const handleRecoverySelect = (recoveryType: string) => {
     onRecoverySelect(id, recoveryType);
@@ -66,7 +67,7 @@ export default function DataRecoveryService({
         <input
           type="checkbox"
           checked={isSelected}
-          onChange={() => onToggle(id)}
+          onChange={() => setShowModal(true)}
           className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
         />
         <div 
@@ -145,6 +146,8 @@ export default function DataRecoveryService({
                       type="radio"
                       name="recovery"
                       value={option.value}
+                      checked={selectedRecoveryOption === option.value}
+                      onChange={() => setSelectedRecoveryOption(option.value)}
                       className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 focus:ring-2"
                     />
                     <div>
@@ -170,9 +173,8 @@ export default function DataRecoveryService({
             <div className="mt-4 flex gap-3">
               <button
                 onClick={() => {
-                  const selected = document.querySelector('input[name="recovery"]:checked') as HTMLInputElement;
-                  if (selected) {
-                    handleRecoverySelect(selected.value);
+                  if (selectedRecoveryOption) {
+                    handleRecoverySelect(selectedRecoveryOption);
                   }
                 }}
                 className="flex-1 bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-sm"
