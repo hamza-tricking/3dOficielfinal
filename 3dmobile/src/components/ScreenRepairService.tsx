@@ -104,19 +104,21 @@ export default function ScreenRepairService({
             
             return (
               <>
-                {discountPrice && !isSelected && (
-                  <div className="text-sm text-gray-500 line-through">{normalPrice}</div>
-                )}
                 <div className="text-xl font-bold text-blue-600">
                   {isSelected && selectedProtection ? (
                     <>
                       <div className="text-sm text-gray-500 line-through">
-                        {basePrice}
+                        {normalPrice}
                       </div>
                       {displayPrice}
                     </>
                   ) : (
-                    displayPrice
+                    <>
+                      {discountPrice && (
+                        <div className="text-sm text-gray-500 line-through">{normalPrice}</div>
+                      )}
+                      {basePrice}
+                    </>
                   )}
                 </div>
               </>

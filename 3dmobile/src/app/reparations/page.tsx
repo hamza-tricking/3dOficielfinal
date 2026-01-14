@@ -73,7 +73,7 @@ export default function Reparations() {
               <h3 className="text-xl font-bold mb-2 text-blue-600">SMARTPHONES</h3>
               <p className="text-gray-700 font-medium">Écran cassé, batterie, panne, désoxydation</p>
             </Link>
-            <Link href="/reparations" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-300 hover:border-rose-400 block">
+            <Link href="/reparations/tablettes" className="group bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-300 hover:border-rose-400 block">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">📱</div>
               <h3 className="text-xl font-bold mb-2 text-rose-600">TABLETTES</h3>
               <p className="text-gray-700 font-medium">Réparation de tous types de tablettes</p>
