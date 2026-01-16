@@ -1,0 +1,49 @@
+Product Images Download Summary
+================================
+
+Total images downloaded: 41
+Download date: 1/15/2026, 7:34:55 PM
+
+Downloaded Files:
+----------------
+IPHONE_14_128_Go.jpg - Product: IPHONE 14 (128 Go) - 459 €
+IPHONE_13_PRO_MAX_128_Go.jpg - Product: IPHONE 13 PRO MAX (128 Go) - 529 €
+IPHONE_13_PRO_128_Go.jpg - Product: IPHONE 13 PRO (128 Go) - 499 €
+IPHONE_13_128_Go.jpg - Product: IPHONE 13 (128 Go) - 389 €
+IPHONE_13_MINI_128_Go.jpg - Product: IPHONE 13 MINI (128 Go) - 349 €
+IPHONE_12_PRO_MAX_128_Go.jpg - Product: IPHONE 12 PRO MAX (128 Go) - 449 €
+IPHONE_12_PRO_128_Go.jpg - Product: IPHONE 12 PRO (128 Go) - 349 €
+IPHONE_12_64_Go.webp - Product: IPHONE 12 (64 Go) - 269 €
+IPHONE_12_128_Go.webp - Product: IPHONE 12 (128 Go) - 299 €
+IPHONE_12_MINI_64_Go.png - Product: IPHONE 12 MINI (64 Go) - 259 €
+IPHONE_12_MINI_128_Go.png - Product: IPHONE 12 MINI (128 Go) - 279 €
+IPHONE_11_PRO_MAX_64_Go.jpg - Product: IPHONE 11 PRO MAX (64 Go) - 339 €
+IPHONE_11_PRO_64_Go.jpg - Product: IPHONE 11 PRO (64 Go) - 279 €
+IPHONE_11_PRO_256_Go.jpg - Product: IPHONE 11 PRO (256 Go) - 329 €
+IPHONE_11_64_Go.jpg - Product: IPHONE 11 (64 Go) - 239 €
+IPHONE_11_128_Go.jpg - Product: IPHONE 11 (128 Go) - 269 €
+IPHONE_XR_64_Go.jpg - Product: IPHONE XR (64 Go) - 199 €
+IPHONE_XR_128_Go.jpg - Product: IPHONE XR (128 Go) - 219 €
+IPHONE_X_64_Go.webp - Product: IPHONE X (64 Go) - 189 €
+IPHONE_X_256_Go.webp - Product: IPHONE X (256 Go) - 229 €
+IPHONE_SE_2020_64_Go.png - Product: IPHONE SE 2020 (64 Go) - 189 €
+IPHONE_SE_2020_128_Go.png - Product: IPHONE SE 2020 (128 Go) - 219 €
+IPHONE_8_64_Go.jpg - Product: IPHONE 8 (64 Go) - 89 €
+IPHONE_SE_2016_32_Go.jpg - Product: IPHONE SE 2016 (32 Go) - 69 €
+IPHONE_SE_2016_16_Go.jpg - Product: IPHONE SE 2016 (16 Go) - 49 €
+GALAXY_S23_256_Go.webp - Product: GALAXY S23 (256 Go) - 499 €
+GALAXY_S22_128_Go.png - Product: GALAXY S22 (128 Go) - 349 €
+GALAXY_S21_128_Go.png - Product: GALAXY S21 (128 Go) - 299 €
+GALAXY_S20_FE_5G_128_Go.png - Product: GALAXY S20 FE 5G (128 Go) - 229 €
+GALAXY_A13_64_Go.jpg - Product: GALAXY A13 (64 Go) - 149 €
+GALAXY_XCOVER_5_64_Go.avif - Product: GALAXY XCOVER 5 (64 Go) - 139 €
+GALAXY_A22_64_Go.webp - Product: GALAXY A22 (64 Go) - 129 €
+GALAXY_A21S_32_Go.webp - Product: GALAXY A21S (32 Go) - 119 €
+GALAXY_A12_64_Go.png - Product: GALAXY A12 (64 Go) - 119 €
+GALAXY_A40_64_Go.png - Product: GALAXY A40 (64 Go) - 119 €
+GALAXY_A20_E_32_Go.webp - Product: GALAXY A20 E (32 Go) - 99 €
+GALAXY_A10_32_Go.avif - Product: GALAXY A10 (32 Go) - 89 €
+SAMSUNG_TAB_A8_105_32g_Go.avif - Product: SAMSUNG TAB A8 10.5 (32g Go) - 129 €
+IPAD_9_64_Go.png - Product: IPAD 9 (64 Go) - 349 €
+IPAD_6_128_Go.jpg - Product: IPAD 6 (128 Go) - 199 €
+PC_DELL_LATITUDE_7280_240_Go.jpg - Product: PC DELL LATITUDE 7280 (240 Go) - 199 €

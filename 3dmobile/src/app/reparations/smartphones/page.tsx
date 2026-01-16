@@ -1,9 +1,40 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ServiceCard from "@/components/ServiceCard";
 import BrandCard from "@/components/BrandCard";
 
 export default function Smartphones() {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const brands = [
+    { name: "Apple iPhone", href: "/reparations/smartphones/apple" },
+    { name: "Samsung Galaxy", href: "/reparations/smartphones/samsung" },
+    { name: "Xiaomi", href: "/reparations/smartphones/xiaomi" },
+    { name: "Huawei", href: "/reparations/smartphones/huawei" },
+    { name: "OnePlus", href: "/reparations/smartphones/oneplus" },
+    { name: "Google Pixel", href: "/reparations/smartphones/google-pixel" },
+    { name: "Sony Xperia", href: "/reparations/smartphones/sony" },
+    { name: "OPPO", href: "/reparations/smartphones/oppo" },
+    { name: "Vivo", href: "/reparations/smartphones/vivo" },
+    { name: "Realme", href: "/reparations/smartphones/realme" },
+    { name: "Nokia", href: "/reparations/smartphones/nokia" },
+    { name: "LG", href: "/reparations/smartphones/lg" },
+    { name: "Motorola", href: "/reparations/smartphones/motorola" },
+    { name: "Honor", href: "/reparations/smartphones/honor" },
+    { name: "Asus ROG Phone", href: "/reparations/smartphones/asus" },
+    { name: "TCL", href: "/reparations/smartphones/tcl" },
+    { name: "Wiko", href: "/reparations/smartphones/wiko" },
+    { name: "Blackview", href: "/reparations/smartphones/blackview" },
+    { name: "Crosscall", href: "/reparations/smartphones/crosscall" }
+  ];
+
+  const filteredBrands = brands.filter(brand =>
+    brand.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -191,102 +222,57 @@ export default function Smartphones() {
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
             Marques de Smartphones Réparées
           </h2>
+          
+          {/* Search Bar */}
+          <div className="max-w-2xl mx-auto mb-12">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Rechercher une marque ou un modèle..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full px-6 py-4 pr-12 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent text-lg shadow-lg"
+              />
+              <div className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+            </div>
+            {searchTerm && (
+              <p className="text-center text-gray-600 mt-4">
+                {filteredBrands.length} résultat{filteredBrands.length > 1 ? 's' : ''} pour "{searchTerm}"
+              </p>
+            )}
+          </div>
+
           <div className="grid grid-cols-3 md:grid-cols-6 gap-8 items-center">
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Apple_logo.png" 
-              alt="Apple iPhone"
-              href="/reparations/smartphones/apple"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Samsung_logo.png" 
-              alt="Samsung Galaxy"
-              href="/reparations/smartphones/samsung"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Xiaomi_logo.png" 
-              alt="Xiaomi"
-              href="/reparations/smartphones/xiaomi"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Huawei_logo.png" 
-              alt="Huawei"
-              href="/reparations/smartphones/huawei"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/OnePlus_logo.png" 
-              alt="OnePlus"
-              href="/reparations/smartphones/oneplus"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Google_logo.png" 
-              alt="Google Pixel"
-              href="/reparations/smartphones/google-pixel"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Sony_logo.png" 
-              alt="Sony Xperia"
-              href="/reparations/smartphones/sony"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Oppo_logo.png" 
-              alt="OPPO"
-              href="/reparations/smartphones/oppo"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Vivo_logo.png" 
-              alt="Vivo"
-              href="/reparations/smartphones/vivo"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Realme_logo.jpg" 
-              alt="Realme"
-              href="/reparations/smartphones/realme"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Nokia_logo.png" 
-              alt="Nokia"
-              href="/reparations/smartphones/nokia"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/LG_logo.jpg" 
-              alt="LG"
-              href="/reparations/smartphones/lg"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Motorola_logo.jpg" 
-              alt="Motorola"
-              href="/reparations/smartphones/motorola"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Honor_logo.png" 
-              alt="Honor"
-              href="/reparations/smartphones/honor"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Asus_logo.png" 
-              alt="Asus ROG Phone"
-              href="/reparations/smartphones/asus"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Tcl_logo.png" 
-              alt="TCL"
-              href="/reparations/smartphones/tcl"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Wiko_logo.jpg" 
-              alt="Wiko"
-              href="/reparations/smartphones/wiko"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Blackview_logo.png" 
-              alt="Blackview"
-              href="/reparations/smartphones/blackview"
-            />
-            <BrandCard 
-              src="/scrabed data/smartphones repaire/brand_images/Crosscall_logo.png" 
-              alt="Crosscall"
-              href="/reparations/smartphones/crosscall"
-            />
+            {filteredBrands.map((brand, index) => (
+              <BrandCard 
+                key={index}
+                src={`/scrabed data/smartphones repaire/brand_images/${brand.name.includes('Apple') ? 'Apple_logo.png' : 
+                  brand.name.includes('Samsung') ? 'Samsung_logo.png' :
+                  brand.name.includes('Xiaomi') ? 'Xiaomi_logo.png' :
+                  brand.name.includes('Huawei') ? 'Huawei_logo.png' :
+                  brand.name.includes('OnePlus') ? 'OnePlus_logo.png' :
+                  brand.name.includes('Google') ? 'Google_logo.png' :
+                  brand.name.includes('Sony') ? 'Sony_logo.png' :
+                  brand.name.includes('OPPO') ? 'Oppo_logo.png' :
+                  brand.name.includes('Vivo') ? 'Vivo_logo.png' :
+                  brand.name.includes('Realme') ? 'Realme_logo.jpg' :
+                  brand.name.includes('Nokia') ? 'Nokia_logo.png' :
+                  brand.name.includes('LG') ? 'LG_logo.jpg' :
+                  brand.name.includes('Motorola') ? 'Motorola_logo.jpg' :
+                  brand.name.includes('Honor') ? 'Honor_logo.png' :
+                  brand.name.includes('Asus') ? 'Asus_logo.png' :
+                  brand.name.includes('TCL') ? 'Tcl_logo.png' :
+                  brand.name.includes('Wiko') ? 'Wiko_logo.jpg' :
+                  brand.name.includes('Blackview') ? 'Blackview_logo.png' :
+                  'Crosscall_logo.png'}`}
+                alt={brand.name}
+                href={brand.href}
+              />
+            ))}
           </div>
         </div>
       </section>

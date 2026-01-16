@@ -1,0 +1,137 @@
+Product Details Scraping Summary
+===================================
+
+Total products processed: 43
+Scraping date: 1/15/2026, 8:04:50 PM
+
+Products found:
+-------------
+IPHONE 14 - 459 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-14/
+
+IPHONE 13 PRO MAX - 529 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-13-pro-max/
+
+IPHONE 13 PRO - 499 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-13-pro/
+
+IPHONE 13 - 389 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-13/
+
+IPHONE 13 MINI - 349 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-13-mini/
+
+IPHONE 12 PRO MAX - 449 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-12-pro-max/
+
+IPHONE 12 PRO - 349 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-12-pro/
+
+IPHONE 12 - 269 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-12/
+
+IPHONE 12 - 299 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-12-2/
+
+IPHONE 12 MINI - 259 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-12-mini/
+
+IPHONE 12 MINI - 279 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-12-mini-2/
+
+IPHONE 11 PRO MAX - 339 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-11-pro-max/
+
+IPHONE 11 PRO - 279 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-11-pro-2/
+
+IPHONE 11 PRO - 329 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-11-pro/
+
+IPHONE 11 - 239 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-11/
+
+IPHONE 11 - 269 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-11-2/
+
+IPHONE XR - 199 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-xr/
+
+IPHONE XR - 219 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-xr-2/
+
+IPHONE X - 189 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-x/
+
+IPHONE X - 229 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-x-2/
+
+IPHONE SE 2020 - 189 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-se-2020/
+
+IPHONE SE 2020 - 219 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-se-2020-2/
+
+IPHONE 8 - 89 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-8/
+
+IPHONE SE 2016 - 69 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-se-2016-32go/
+
+IPHONE SE 2016 - 49 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-se-2016/
+
+GALAXY S23 - 499 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-s23/
+
+GALAXY S22 - 349 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-s22/
+
+GALAXY S21 - 299 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-s21/
+
+GALAXY S20 FE 5G - 229 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-s20-fe-5g/
+
+GALAXY A13 - 149 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-a13/
+
+GALAXY XCOVER 5 - 139 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-xcover-5/
+
+GALAXY A22 - 129 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-a22/
+
+GALAXY A21S - 119 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-a21s/
+
+GALAXY A12 - 119 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-a12/
+
+GALAXY A40 - 119 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/samsung-a20e/
+
+GALAXY A20 E - 99 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-a20-e/
+
+GALAXY A10 - 89 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/galaxy-a10/
+
+SAMSUNG TAB A8 10.5 - 129 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/samsung-tab-a8-10-5-2022/
+
+IPAD 9 - 349 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/ipad-9/
+
+IPAD 6 - 199 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/ipad-6/
+
+PC DELL LATITUDE 7280 - 199 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/pc-windows-10/
+
+IPHONE XR - 199 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-XR/
+
+IPHONE X - 189 € TTC
+  URL: https://www.ecophone44.com/reconditionnes/iphone-X/
+
