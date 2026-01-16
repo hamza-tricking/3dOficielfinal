@@ -279,10 +279,7 @@ export default function GalaxyA35_5gPage() {
 
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-blue-600 text-white px-4 py-3 shadow-lg border-t border-blue-700">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-4">
-            <span className="text-lg font-semibold">📱 {selectedServices.length} service{selectedServices.length > 1 ? 's' : ''} sélectionné{selectedServices.length > 1 ? 's' : ''}</span>
-            <span className="text-sm">{selectedServices.map(serviceId => repairServices.find(s => s.id === serviceId)?.name || '').join(' + ')}</span>
-          </div>
+          
           <div className="text-xl font-bold">Total: {calculateTotal().toFixed(2)}€</div>
           <div className="flex gap-3">
             <a href="tel:0980677518" className="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-blue-50 text-sm">📞 Appeler</a>

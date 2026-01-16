@@ -172,12 +172,7 @@ export default function iPhone16PROPage() {
             <span className="text-lg font-semibold">
               📱 {selectedServices.length} service{selectedServices.length > 1 ? 's' : ''} sélectionné{selectedServices.length > 1 ? 's' : ''}
             </span>
-            <span className="text-sm">
-              {selectedServices.map(serviceId => {
-                const service = repairServices.find(s => s.id === serviceId);
-                return service ? service.name : '';
-              }).join(' + ')}
-            </span>
+            
           </div>
           <div className="text-xl font-bold">
             Total: {calculateTotal().toFixed(2)}€
@@ -630,12 +625,7 @@ export default function iPhone16PROPage() {
             <span className="text-lg font-semibold">
               📱 {selectedServices.length} service{selectedServices.length > 1 ? 's' : ''} sélectionné{selectedServices.length > 1 ? 's' : ''}
             </span>
-            <span className="text-sm">
-              {selectedServices.map(serviceId => {
-                const service = repairServices.find(s => s.id === serviceId);
-                return service ? service.name : '';
-              }).join(' + ')}
-            </span>
+            
           </div>
           <div className="text-xl font-bold">
             Total: {calculateTotal().toFixed(2)}€

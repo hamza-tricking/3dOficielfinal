@@ -50,7 +50,7 @@ export default function Nova10ProPage() {
     return selectedServices.reduce((total, serviceId) => {
       const service = repairServices.find(s => s.id === serviceId);
       if (!service) return total;
-      let servicePrice = parseFloat((service.discountPrice || service.normalPrice).replace('€ TTC', '').replace('GRATUITE', '0'));
+      let servicePrice = parseFloat(service.normalPrice.replace('€ TTC', '').replace('GRATUITE', '0'));
       const protection = selectedProtection[serviceId];
       if (protection === 'hydrogel') servicePrice += 20;
       else if (protection === 'verre-trempe') servicePrice += 10;
@@ -153,7 +153,7 @@ export default function Nova10ProPage() {
                       if (!service) return null;
                       const protection = selectedProtection[serviceId];
                       let serviceName = service.name;
-                      let servicePrice = service.discountPrice || service.normalPrice;
+                      let servicePrice = service.normalPrice;
                       if (protection === 'hydrogel') { serviceName += ' (Film Hydrogel)'; servicePrice = servicePrice.replace('€ TTC', '') + ' + 20€ TTC'; }
                       else if (protection === 'verre-trempe') { serviceName += ' (Verre trempé)'; servicePrice = servicePrice.replace('€ TTC', '') + ' + 10€ TTC'; }
                       else if (protection === 'avec-demontage') { serviceName += ' (Avec démontage)'; servicePrice = servicePrice.replace('€ TTC', '') + ' + 20€ TTC'; }
@@ -255,10 +255,7 @@ export default function Nova10ProPage() {
 
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-blue-600 text-white px-4 py-3 shadow-lg border-t border-blue-700">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-4">
-            <span className="text-lg font-semibold">📱 {selectedServices.length} service{selectedServices.length > 1 ? 's' : ''} sélectionné{selectedServices.length > 1 ? 's' : ''}</span>
-            <span className="text-sm">{selectedServices.map(serviceId => repairServices.find(s => s.id === serviceId)?.name || '').join(' + ')}</span>
-          </div>
+          
           <div className="text-xl font-bold">Total: {calculateTotal().toFixed(2)}€</div>
           <div className="flex gap-3">
             <a href="tel:0980677518" className="bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-blue-50 text-sm">📞 Appeler</a>

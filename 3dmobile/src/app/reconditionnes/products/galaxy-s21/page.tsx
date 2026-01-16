@@ -43,7 +43,7 @@ export default function GALAXYS21() {
                 Reconditionnés
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-rose-600"></span>
               </Link></li>
-              <li><a href="#deblocage" className="text-gray-700 hover:text-rose-600 font-semibold transition-all duration-300 relative group py-2">
+              <li><a href="/deblocage" className="text-gray-700 hover:text-rose-600 font-semibold transition-all duration-300 relative group py-2">
                 Déblocage
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-rose-600 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </a></li>
@@ -102,7 +102,7 @@ export default function GALAXYS21() {
               </h2>
               
               <div className="prose prose-lg text-gray-700 mb-8">
-                <p class="mb-4">Samsung Galaxy S21 5G 128Go
+                <p className="mb-4">Samsung Galaxy S21 5G 128Go
 Chez Ecophone 44, chaque Samsung est contrôlé, préparé et garanti dans notre atelier à Nantes.
 Pas de surprise : vous repartez avec un smartphone fiable, propre, et prêt à l’emploi.
 Contrôle rigoureux sur plus de 50 points essentiels : écran, capteurs, micro, batterie, haut-parleurs, caméra, Wi‑Fi, Bluetooth, etc.
@@ -252,7 +252,7 @@ Chez nous, vous savez exactement ce que vous achetez, et vous pouvez l’essayer
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/reparations" className="hover:text-white transition-colors">Réparations</Link></li>
                 <li><Link href="/reconditionnes" className="hover:text-white transition-colors">Reconditionnés</Link></li>
-                <li><a href="#deblocage" className="hover:text-white transition-colors">Déblocage</a></li>
+                <li><a href="/deblocage" className="hover:text-white transition-colors">Déblocage</a></li>
                 <li><a href="#accessoires" className="hover:text-white transition-colors">Accessoires</a></li>
               </ul>
             </div>

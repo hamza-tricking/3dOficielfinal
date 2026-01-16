@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import ProductCard from './ProductCard';
 import { products, getProductsByCategory } from './products-data';
+import Navbar from '@/components/navbar';
 
 export default function ReconditionnesPage() {
   const iPhones = getProductsByCategory('iphone');
@@ -11,55 +12,12 @@ export default function ReconditionnesPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-blue-500 backdrop-blur-lg text-white shadow-lg border-b border-white/30">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-3 text-sm">
-            <a href="tel:0980677518" className="hover:underline flex items-center gap-2 transition-colors hover:text-blue-100">
-              <span className="text-lg">📞</span>
-              <span className="font-semibold">09 80 67 75 18</span>
-            </a>
-            <div className="flex items-center gap-2">
-              <span className="text-lg">📍</span>
-              <span className="font-semibold">70 avenue de la république, 44600 Saint-Nazaire</span>
-            </div>
-          </div>
-        </div>
-      </header>
+     <Navbar />
 
-      {/* Navigation */}
-      <nav className="bg-white/95 backdrop-blur-xl shadow-xl sticky top-0 z-40 border-b border-gray-100/50">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-rose-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">3D</span>
-              </div>
-              <Link href="/" className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-rose-600 bg-clip-text text-transparent">3DMobile.net</Link>
-            </div>
-            <ul className="hidden md:flex space-x-8">
-              <li><Link href="/" className="text-gray-700 hover:text-blue-600 font-semibold transition-all duration-300 relative group py-2">
-                Accueil
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-rose-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/reparations" className="text-gray-700 hover:text-rose-600 font-semibold transition-all duration-300 relative group py-2">
-                Réparations
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-rose-600 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/reconditionnes" className="text-blue-600 font-semibold transition-all duration-300 relative group py-2">
-                Reconditionnés
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-rose-600"></span>
-              </Link></li>
-              <li><a href="#deblocage" className="text-gray-700 hover:text-rose-600 font-semibold transition-all duration-300 relative group py-2">
-                Déblocage
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-rose-600 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+   
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-rose-500 to-blue-600 text-white py-16">
+      <section className="bg-gradient-to-br from-blue-600 via-rose-500 to-blue-600 text-white py-16 pt-32">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Téléphones Reconditionnés
@@ -196,7 +154,7 @@ export default function ReconditionnesPage() {
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/reparations" className="hover:text-white transition-colors">Réparations</Link></li>
                 <li><Link href="/reconditionnes" className="hover:text-white transition-colors">Reconditionnés</Link></li>
-                <li><a href="#deblocage" className="hover:text-white transition-colors">Déblocage</a></li>
+                <li><a href="/deblocage" className="hover:text-white transition-colors">Déblocage</a></li>
                 <li><a href="#accessoires" className="hover:text-white transition-colors">Accessoires</a></li>
               </ul>
             </div>

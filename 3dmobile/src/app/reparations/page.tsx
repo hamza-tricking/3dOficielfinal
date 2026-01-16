@@ -1,58 +1,14 @@
+import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Reparations() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-blue-500 backdrop-blur-lg text-white shadow-lg border-b border-white/30">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-3 text-sm">
-            <a href="tel:0980677518" className="hover:underline flex items-center gap-2 transition-colors hover:text-blue-100">
-              <span className="text-lg">📞</span>
-              <span className="font-semibold">09 80 67 75 18</span>
-            </a>
-            <div className="flex items-center gap-2">
-              <span className="text-lg">📍</span>
-              <span className="font-semibold">70 avenue de la république, 44600 Saint-Nazaire</span>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      {/* Navigation */}
-      <nav className="bg-white shadow-lg sticky top-0 z-50 border-b border-gray-200">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-4">
-            <div className="text-3xl font-bold text-blue-600">3DMobile.net</div>
-            <ul className="hidden md:flex space-x-6">
-              <li><Link href="/" className="text-gray-800 hover:text-blue-600 font-semibold transition-colors duration-300 relative group">
-                Accueil
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/reparations" className="text-gray-800 hover:text-rose-600 font-semibold transition-colors duration-300 relative group">
-                Réparations
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-rose-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/reconditionnes" className="text-gray-800 hover:text-blue-600 font-semibold transition-colors duration-300 relative group">
-                Reconditionnés
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/deblocage" className="text-gray-800 hover:text-rose-600 font-semibold transition-colors duration-300 relative group">
-                Déblocage
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-rose-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/contact" className="text-gray-800 hover:text-blue-600 font-semibold transition-colors duration-300 relative group">
-                Contact
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Navbar/>
 
       {/* Hero Section */}
-      <section className="bg-blue-50 py-16">
+      <section className="bg-blue-50 py-16 pt-32">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-800">

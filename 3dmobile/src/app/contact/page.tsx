@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Navbar from "@/components/navbar";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -45,56 +46,9 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-blue-500 backdrop-blur-lg text-white shadow-lg border-b border-white/30">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-3 text-sm">
-            <a href="tel:0980677518" className="hover:underline flex items-center gap-2 transition-colors hover:text-blue-100">
-              <span className="text-lg">📞</span>
-              <span className="font-semibold">09 80 67 75 18</span>
-            </a>
-            <div className="flex items-center gap-2">
-              <span className="text-lg">📍</span>
-              <span className="font-semibold">70 avenue de la république, 44600 Saint-Nazaire</span>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      {/* Navigation */}
-      <nav className="bg-white/95 backdrop-blur-xl shadow-xl sticky top-0 z-40 border-b border-gray-100/50">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-rose-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">3D</span>
-              </div>
-              <Link href="/" className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-rose-600 bg-clip-text text-transparent">3DMobile.net</Link>
-            </div>
-            <ul className="hidden md:flex space-x-8">
-              <li><Link href="/" className="text-gray-700 hover:text-blue-600 font-semibold transition-all duration-300 relative group py-2">
-                Accueil
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-rose-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/reparations" className="text-gray-700 hover:text-rose-600 font-semibold transition-all duration-300 relative group py-2">
-                Réparations
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-rose-600 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/reconditionnes" className="text-gray-700 hover:text-blue-600 font-semibold transition-all duration-300 relative group py-2">
-                Reconditionnés
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-rose-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link href="/contact" className="text-blue-600 font-semibold transition-all duration-300 relative group py-2">
-                Contact
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-rose-600"></span>
-              </Link></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
+      <Navbar/>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 via-rose-500 to-blue-600 text-white py-20">
+      <section className="bg-gradient-to-br from-blue-600 via-rose-500 to-blue-600 text-white py-20 pt-32">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">

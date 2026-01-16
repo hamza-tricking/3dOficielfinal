@@ -1,72 +1,71 @@
 import Image from "next/image";
 import Link from "next/link";
 import LoadingScreen from "@/components/LoadingScreen";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
     <>
       <LoadingScreen />
       <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-blue-500 backdrop-blur-lg text-white shadow-lg border-b border-white/30">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-3 text-sm">
-            <a href="tel:0980677518" className="hover:underline flex items-center gap-2 transition-colors hover:text-blue-100">
-              <span className="text-lg">📞</span>
-              <span className="font-semibold">09 80 67 75 18</span>
-            </a>
-            <div className="flex items-center gap-2">
-              <span className="text-lg">📍</span>
-              <span className="font-semibold">70 avenue de la république, 44600 Saint-Nazaire</span>
-            </div>
+        {/* Navbar - sticky at top */}
+        <Navbar />
+        
+        {/* New Hero Section with Full Screen Image */}
+        <section className="relative h-screen w-full overflow-hidden pt-32">
+          <div className="absolute inset-0">
+            <Image
+              src="/photos/kilian-seiler-PZLgTUAhxMM-unsplash.jpg"
+              alt="Mobile repair background"
+              fill
+              className="object-cover animate-zoom-in-out"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
           </div>
-        </div>
-      </header>
-
-      {/* Navigation */}
-      <nav className="bg-white/95 backdrop-blur-xl shadow-xl sticky top-0 z-40 border-b border-gray-100/50">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-rose-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">3D</span>
+          
+          <div className="relative z-10 h-full flex items-center justify-center">
+            <div className="text-center text-white px-4 max-w-4xl mx-auto">
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight opacity-0 animate-fade-in-up-after-load">
+                Réparation <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-rose-400">Expert</span>
+              </h1>
+              <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed font-light opacity-0 animate-fade-in-up-after-load animation-delay-200">
+                Service professionnel de réparation de smartphones, tablettes et ordinateurs à Saint-Nazaire
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-in-up-after-load animation-delay-400">
+                <a 
+                  href="#reparations" 
+                  className="bg-gradient-to-r from-blue-600 to-rose-600 text-white px-8 py-4 rounded-full font-semibold hover:from-blue-700 hover:to-rose-700 transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-2xl hover:shadow-3xl transform hover:scale-105"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  Voir nos réparations
+                </a>
+                <a 
+                  href="tel:0980677518" 
+                  className="bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-full font-semibold hover:bg-white/30 transition-all duration-300 inline-flex items-center justify-center gap-2 border border-white/30"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  09 80 67 75 18
+                </a>
               </div>
-              <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-rose-600 bg-clip-text text-transparent">3DMobile.net</div>
             </div>
-            <ul className="hidden md:flex space-x-8">
-              <li><a href="#" className="text-gray-700 hover:text-blue-600 font-semibold transition-all duration-300 relative group py-2">
-                Accueil
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-rose-600 transition-all duration-300 group-hover:w-full"></span>
-              </a></li>
-              <li><a href="#reparations" className="text-gray-700 hover:text-rose-600 font-semibold transition-all duration-300 relative group py-2">
-                Réparations
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-rose-600 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a></li>
-              <li><a href="/reconditionnes" className="text-gray-700 hover:text-blue-600 font-semibold transition-all duration-300 relative group py-2">
-                Reconditionnés
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-rose-600 transition-all duration-300 group-hover:w-full"></span>
-              </a></li>
-              <li><a href="/deblocage" className="text-gray-700 hover:text-rose-600 font-semibold transition-all duration-300 relative group py-2">
-                Déblocage
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-rose-600 to-blue-600 transition-all duration-300 group-hover:w-full"></span>
-              </a></li>
-              <li><a href="#contact" className="text-gray-700 hover:text-blue-600 font-semibold transition-all duration-300 relative group py-2">
-                Contact
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-rose-600 transition-all duration-300 group-hover:w-full"></span>
-              </a></li>
-            </ul>
-            {/* Mobile menu button */}
-            <button className="md:hidden p-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
           </div>
-        </div>
-      </nav>
+          
+          {/* Scroll indicator */}
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white opacity-0 animate-bounce-after-load">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+          </div>
+        </section>
 
-      {/* Hero Section */}
-      <section className="bg-blue-50 backdrop-blur-xl text-gray-900 py-20 relative overflow-hidden">
+        {/* Hero Section */}
+      <section className="bg-blue-50 backdrop-blur-xl text-gray-900 py-20 relative overflow-hidden pt-32">
         <div className="absolute inset-0 bg-white/40 backdrop-blur-sm"></div>
         <div className="absolute top-0 left-0 w-96 h-96 bg-blue-200 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-rose-200 rounded-full blur-3xl"></div>
@@ -113,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="reparations" className="py-16 bg-gray-50 backdrop-blur-sm">
+      <section id="reparations" className="py-16 bg-gray-50 backdrop-blur-sm pt-32">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">
             Nos services de réparation
@@ -147,7 +146,7 @@ export default function Home() {
       </section>
 
       {/* What to Repair Section */}
-      <section id="deblocage" className="py-16 bg-rose-50 backdrop-blur-sm">
+      <section id="deblocage" className="py-16 bg-rose-50 backdrop-blur-sm pt-32">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">
             Que souhaitez-vous réparer ?
@@ -245,7 +244,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-gradient-to-br from-white/80 via-blue-50/60 to-rose-50/60 backdrop-blur-sm">
+      <section className="py-16 bg-gradient-to-br from-white/80 via-blue-50/60 to-rose-50/60 backdrop-blur-sm pt-32">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -292,7 +291,7 @@ export default function Home() {
       </section>
 
       {/* Reconditionnés Section */}
-      <section id="reconditionnes" className="py-16 bg-gradient-to-br from-blue-50/60 to-rose-50/60 backdrop-blur-sm">
+      <section id="reconditionnes" className="py-16 bg-gradient-to-br from-blue-50/60 to-rose-50/60 backdrop-blur-sm pt-32">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400/80 to-rose-400/80">NOS RECONDITIONNÉS</span>
@@ -303,9 +302,17 @@ export default function Home() {
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white/60 backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200/50">
-              <div className="text-4xl mb-4">📱</div>
-              <h3 className="text-xl font-bold mb-2 text-gray-800">iPhone Reconditionnés</h3>
+            <Link href="/reconditionnes" className="group bg-white/60 backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200/50 block cursor-pointer">
+              <div className="mb-4 flex justify-center">
+                <Image
+                  src="/scrabed data/smartphones repaire/repair_data_iphone/IPHONE_14_image.png"
+                  alt="iPhone Reconditionnés"
+                  width={120}
+                  height={120}
+                  className="rounded-lg object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-800 group-hover:text-blue-600 transition-colors">iPhone Reconditionnés</h3>
               <p className="text-gray-600/80 mb-4">iPhone X, 11, 12, 13, 14 et modèles Pro</p>
               <ul className="text-sm text-gray-600/70 space-y-1">
                 <li>• Garantie 12 mois</li>
@@ -314,24 +321,40 @@ export default function Home() {
                 <li>• Chargeur et câble inclus</li>
               </ul>
               <p className="text-lg font-bold text-blue-600/80 mt-4">Dès 189€</p>
-            </div>
+            </Link>
             
-            <div className="bg-white/60 backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200/50">
-              <div className="text-4xl mb-4">📱</div>
-              <h3 className="text-xl font-bold mb-2 text-gray-800">Samsung Reconditionnés</h3>
+            <Link href="/reconditionnes" className="group bg-white/60 backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200/50 block cursor-pointer">
+              <div className="mb-4 flex justify-center">
+                <Image
+                  src="/scrabed data/smartphones repaire/repair_data_samsung/GALAXY_A13_4G_image.png"
+                  alt="Samsung Reconditionnés"
+                  width={120}
+                  height={120}
+                  className="rounded-lg object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-800 group-hover:text-rose-600 transition-colors">Samsung Reconditionnés</h3>
               <p className="text-gray-600/80 mb-4">Galaxy S20, S21, S22, S23 et série A</p>
               <ul className="text-sm text-gray-600/70 space-y-1">
                 <li>• Garantie 12 mois</li>
                 <li>• Écran parfait</li>
                 <li>• Coque impeccable</li>
-                <li>• Double SIM disponible</li>
+                <li>• Double SIM disponiautresble</li>
               </ul>
               <p className="text-lg font-bold text-rose-600/80 mt-4">Dès 149€</p>
-            </div>
+            </Link>
             
-            <div className="bg-white/60 backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200/50">
-              <div className="text-4xl mb-4">📱</div>
-              <h3 className="text-xl font-bold mb-2 text-gray-800">Autres Marques</h3>
+            <Link href="/reconditionnes" className="group bg-white/60 backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200/50 block cursor-pointer">
+              <div className="mb-4 flex justify-center">
+                <Image
+                  src="/scrabed data/smartphones repaire/repair_data_google_pixel/PIXEL_7_image.png"
+                  alt="Autres Marques Reconditionnées"
+                  width={120}
+                  height={120}
+                  className="rounded-lg object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-800 group-hover:text-gray-600 transition-colors">Autres Marques</h3>
               <p className="text-gray-600/80 mb-4">Xiaomi, Huawei, Oppo, OnePlus...</p>
               <ul className="text-sm text-gray-600/70 space-y-1">
                 <li>• Garantie 6 mois</li>
@@ -340,7 +363,7 @@ export default function Home() {
                 <li>• Prix imbattables</li>
               </ul>
               <p className="text-lg font-bold text-gray-700/80 mt-4">Dès 99€</p>
-            </div>
+            </Link>
           </div>
           
           <div className="bg-gradient-to-r from-blue-100/60 to-rose-100/60 backdrop-blur-sm p-8 rounded-2xl border border-white/50">
@@ -366,7 +389,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-16 bg-gradient-to-br from-white/80 via-blue-50/60 to-rose-50/60 backdrop-blur-sm">
+      <section className="py-16 bg-gradient-to-br from-white/80 via-blue-50/60 to-rose-50/60 backdrop-blur-sm pt-32">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400/80 to-rose-400/80">Pourquoi nous choisir ?</span>
@@ -416,7 +439,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-16 bg-gradient-to-br from-rose-50/60 to-blue-50/60 backdrop-blur-sm">
+      <section className="py-16 bg-gradient-to-br from-rose-50/60 to-blue-50/60 backdrop-blur-sm pt-32">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400/80 to-blue-400/80">Ce que disent nos clients</span>
@@ -463,7 +486,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 bg-blue-100 backdrop-blur-xl text-gray-800 relative overflow-hidden">
+      <section id="contact" className="py-16 bg-blue-100 backdrop-blur-xl text-gray-800 relative overflow-hidden pt-32">
         <div className="absolute inset-0 bg-white/40 backdrop-blur-sm"></div>
         <div className="absolute top-0 left-0 w-96 h-96 bg-blue-200 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-rose-200 rounded-full blur-3xl"></div>
@@ -561,7 +584,7 @@ export default function Home() {
           
           <div className="border-t border-gray-700 pt-6">
             <div className="text-sm text-gray-500">
-              <p>© 2024 3DMobile.net - Tous droits réservés</p>
+              <p>© 2025 3DMobile.net - Tous droits réservés</p>
               <p className="mt-2 text-xs">70 avenue de la république, 44600 Saint-Nazaire</p>
             </div>
           </div>
