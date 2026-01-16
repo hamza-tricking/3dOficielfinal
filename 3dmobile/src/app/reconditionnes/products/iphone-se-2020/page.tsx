@@ -84,7 +84,7 @@ export default function IPHONESE2020() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/IPHONE_SE_2020_128_Go.jpg"
+                  src="/scrabed data/recrutment/IPHONE_SE_2020_128_Go.png"
                   alt="IPHONE SE 2020 reconditionné"
                   fill
                   className="object-contain p-8"

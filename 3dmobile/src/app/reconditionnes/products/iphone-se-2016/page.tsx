@@ -84,7 +84,7 @@ export default function IPHONESE2016() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/IPHONE_SE_2016_128_Go.jpg"
+                  src="/scrabed data/recrutment/IPHONE_SE_2016_32_Go.jpg"
                   alt="IPHONE SE 2016 reconditionné"
                   fill
                   className="object-contain p-8"

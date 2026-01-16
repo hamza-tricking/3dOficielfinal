@@ -84,7 +84,7 @@ export default function GALAXYXCOVER5() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/GALAXY_XCOVER_5_128_Go.jpg"
+                  src="/scrabed data/recrutment/GALAXY_XCOVER_5_64_Go.avif"
                   alt="GALAXY XCOVER 5 reconditionné"
                   fill
                   className="object-contain p-8"

@@ -84,7 +84,7 @@ export default function GALAXYA40() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/GALAXY_A40_128_Go.jpg"
+                  src="/scrabed data/recrutment/GALAXY_A40_64_Go.png"
                   alt="GALAXY A40 reconditionné"
                   fill
                   className="object-contain p-8"

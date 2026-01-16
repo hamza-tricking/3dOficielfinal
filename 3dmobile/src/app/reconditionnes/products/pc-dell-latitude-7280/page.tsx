@@ -84,7 +84,7 @@ export default function PCDELLLATITUDE7280() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/PC_DELL_LATITUDE_7280_128_Go.jpg"
+                  src="/scrabed data/recrutment/PC_DELL_LATITUDE_7280_240_Go.jpg"
                   alt="PC DELL LATITUDE 7280 reconditionné"
                   fill
                   className="object-contain p-8"

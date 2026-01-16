@@ -84,7 +84,7 @@ export default function GALAXYS20FE5G() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/GALAXY_S20_FE_5G_128_Go.jpg"
+                  src="/scrabed data/recrutment/GALAXY_S20_FE_5G_128_Go.png"
                   alt="GALAXY S20 FE 5G reconditionné"
                   fill
                   className="object-contain p-8"

@@ -84,7 +84,7 @@ export default function IPHONE12MINI() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/IPHONE_12_MINI_128_Go.jpg"
+                  src="/scrabed data/recrutment/IPHONE_12_MINI_128_Go.png"
                   alt="IPHONE 12 MINI reconditionné"
                   fill
                   className="object-contain p-8"

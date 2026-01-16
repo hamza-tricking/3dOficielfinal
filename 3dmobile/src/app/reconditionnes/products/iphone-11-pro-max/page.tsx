@@ -84,7 +84,7 @@ export default function IPHONE11PROMAX() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/IPHONE_11_PRO_MAX_128_Go.jpg"
+                  src="/scrabed data/recrutment/IPHONE_11_PRO_MAX_64_Go.jpg"
                   alt="IPHONE 11 PRO MAX reconditionné"
                   fill
                   className="object-contain p-8"

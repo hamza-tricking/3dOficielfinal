@@ -84,7 +84,7 @@ export default function GALAXYA20E() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/GALAXY_A20_E_128_Go.jpg"
+                  src="/scrabed data/recrutment/GALAXY_A20_E_32_Go.webp"
                   alt="GALAXY A20 E reconditionné"
                   fill
                   className="object-contain p-8"

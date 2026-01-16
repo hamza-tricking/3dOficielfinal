@@ -84,7 +84,7 @@ export default function GALAXYA21S() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/GALAXY_A21S_128_Go.jpg"
+                  src="/scrabed data/recrutment/GALAXY_A21S_32_Go.webp"
                   alt="GALAXY A21S reconditionné"
                   fill
                   className="object-contain p-8"

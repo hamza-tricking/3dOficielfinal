@@ -84,7 +84,7 @@ export default function GALAXYS21() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/GALAXY_S21_128_Go.jpg"
+                  src="/scrabed data/recrutment/GALAXY_S21_128_Go.png"
                   alt="GALAXY S21 reconditionné"
                   fill
                   className="object-contain p-8"

@@ -84,7 +84,7 @@ export default function GALAXYA22() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/GALAXY_A22_128_Go.jpg"
+                  src="/scrabed data/recrutment/GALAXY_A22_64_Go.webp"
                   alt="GALAXY A22 reconditionné"
                   fill
                   className="object-contain p-8"

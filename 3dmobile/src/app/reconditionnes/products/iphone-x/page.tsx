@@ -84,7 +84,7 @@ export default function IPHONEX() {
             <div>
               <div className="relative aspect-square bg-gray-100 rounded-xl overflow-hidden">
                 <Image
-                  src="/scrabed data/recrutment/IPHONE_X_128_Go.jpg"
+                  src="/scrabed data/recrutment/IPHONE_X_256_Go.webp"
                   alt="IPHONE X reconditionné"
                   fill
                   className="object-contain p-8"
